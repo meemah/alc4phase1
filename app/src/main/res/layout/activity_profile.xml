@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.example.maimunahibrahim.alc4phase1.profileActivity"
+    android:weightSum="1"
+    android:textAlignment="center"
+    android:background="@drawable/gradient">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRACK"
+        android:id="@+id/tracktextView"
+        android:layout_alignTop="@+id/AndroidtextView"
+        android:layout_alignLeft="@+id/emailtextView"
+        android:layout_alignStart="@+id/emailtextView"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:id="@+id/AndroidtextView"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COUNTRY:"
+        android:id="@+id/countrytextView"
+        android:layout_marginTop="40dp"
+        android:editable="false"
+        android:layout_below="@+id/tracktextView"
+        android:layout_alignLeft="@+id/tracktextView"
+        android:layout_alignStart="@+id/tracktextView"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nigeria"
+        android:id="@+id/nigeriatextView"
+        android:layout_above="@+id/emailtextView"
+        android:layout_alignLeft="@+id/AndroidtextView"
+        android:layout_alignStart="@+id/AndroidtextView"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:"
+        android:id="@+id/emailtextView"
+        android:layout_below="@+id/countrytextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maimunahibro94@gmail.com"
+        android:id="@+id/fullEmailTextView"
+        android:layout_above="@+id/phonetextView"
+        android:layout_alignLeft="@+id/fullNumtextView"
+        android:layout_alignStart="@+id/fullNumtextView"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHONE NUMBER:"
+        android:id="@+id/phonetextView"
+        android:layout_below="@+id/emailtextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+2347055368307"
+        android:id="@+id/fullNumtextView"
+        android:layout_alignTop="@+id/phonetextView"
+        android:layout_alignLeft="@+id/usernametextView"
+        android:layout_alignStart="@+id/usernametextView"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SLACK USERNAME:"
+        android:id="@+id/slacktextView"
+        android:layout_below="@+id/phonetextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maimunahibro94"
+        android:id="@+id/usernametextView"
+        android:layout_alignTop="@+id/slacktextView"
+        android:layout_alignLeft="@+id/AndroidtextView"
+        android:layout_alignStart="@+id/AndroidtextView"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ibrahim Maimunah"
+        android:id="@+id/full_name"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff" />
+
+    <View android:background="@color/btn_gradient_1"
+        android:layout_width = "match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/full_name">
+    </View>
+    </RelativeLayout>
